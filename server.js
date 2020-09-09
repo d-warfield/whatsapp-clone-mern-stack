@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cors());
 
 // DB config
-const connection_url = 'mongodb+srv://admin:qVL6G9d0i7nZdrcp@cluster0.azts0.mongodb.net/whatsappdb?retryWrites=true&w=majority'
+const connection_url = 'mongodb+srv://admin:<>@cluster0.azts0.mongodb.net/whatsappdb?retryWrites=true&w=majority'
 
 mongoose.connect(connection_url, {
   useCreateIndex: true,
